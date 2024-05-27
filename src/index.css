@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-gradient{
+  background: rgb(80,130,175);
+background: -moz-linear-gradient(90deg, rgba(80,130,175,1) 0%, rgba(49,105,154,1) 50%, rgba(80,130,175,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(80,130,175,1) 0%, rgba(49,105,154,1) 50%, rgba(80,130,175,1) 100%);
+background: linear-gradient(90deg, rgba(80,130,175,1) 0%, rgba(49,105,154,1) 50%, rgba(80,130,175,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5082af",endColorstr="#5082af",GradientType=1);
+}
+
+.topbar-gradient{
+  background: rgb(75,127,175);
+background: -moz-linear-gradient(180deg, rgba(75,127,175,1) 5%, rgba(142,186,225,1) 51%, rgba(89,112,167,1) 97%);
+background: -webkit-linear-gradient(180deg, rgba(75,127,175,1) 5%, rgba(142,186,225,1) 51%, rgba(89,112,167,1) 97%);
+background: linear-gradient(180deg, rgba(75,127,175,1) 5%, rgba(142,186,225,1) 51%, rgba(89,112,167,1) 97%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b7faf",endColorstr="#5970a7",GradientType=1);
+}
